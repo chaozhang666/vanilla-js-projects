@@ -1,0 +1,37 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://media.giphy.com/media/5jT0jaNDsM6Ik7X9yq/giphy.gif);
+}
+
+.container {
+  border: grey 2px solid;
+  padding: 20px;
+  background-color: black;
+  color: hotpink;
+  font-size: 180%;
+  border-radius: 20px;
+  box-shadow: hotpink 10px 5px;
+}
+
+button {
+  font-size: 80%;
+  background-color: hotpink;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: black;
+  cursor: url(https://ani.cursors-4u.net/cursors/cur-11/cur1076.cur), auto;
+
+}
+
+.btn {
+  text-align: center;
+}
+
+/* Start http://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/cursors/cur-11/cur1089.cur), auto ;} /* End http://www.cursors-4u.com */

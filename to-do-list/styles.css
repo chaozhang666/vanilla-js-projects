@@ -1,0 +1,33 @@
+body{
+  background: #222831;
+  color: #00adb5;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container{
+  max-width: 400px;
+  letter-spacing: 0.1rem;
+  background-color: #393e46;
+}
+
+input[type=text],
+input[type=text]:focus{
+  color: #00fff5;
+  border: none;
+  background: rgba(0,0,0,0.2);
+  max-width: 400px;
+}
+.todos li{
+  background: #00adb5;
+}
+.delete{
+  cursor: pointer;
+}
+
+#add:hover {
+  color: #fff;
+}
+
+footer {
+  font-size: 0.6em;
+}

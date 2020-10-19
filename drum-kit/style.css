@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+  text-align: center;
+  background-color: #8c82fc;
+  background-color: black;
+  font-family: 'Indie Flower', cursive;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 6rem;
+  color: #7effdb;
+  text-shadow: 3px 0 #ff9de2;
+}
+
+footer {
+  color: #ff9de2;
+  margin-top: 100px;
+}
+
+.w {
+  background-image: url("./images/tom1.png");
+}
+
+.a {
+  background-image: url("./images/tom2.png");
+}
+
+.s {
+  background-image: url("./images/tom3.png");
+}
+
+.d {
+  background-image: url("./images/tom4.png");
+}
+
+.j {
+  background-image: url("./images/crash.png");
+}
+
+.k {
+  background-image: url("./images/kick.png");
+}
+
+.l {
+  background-image: url("./images/snare.png");
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.drum {
+  width: 150px;
+  height: 150px;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+
+  border: 10px dashed #b693fe;
+  font-weight: 900;
+  color: #8c82fc;
+  text-shadow: 5px 0 #eaffd0;
+  border-radius: 15px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  /* display: inline-block; */
+}
+

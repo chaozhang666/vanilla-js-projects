@@ -1,0 +1,18 @@
+img{
+    width: 240px;
+    height: 140px;
+}
+
+.heading li {
+    display: inline-block;
+}
+
+.heading li {
+    font-size: 1.4em;
+    margin: 2% 5%;
+}
+
+.heading li:hover, #title:hover {
+    color: rgb(0, 195, 255);
+    cursor: pointer;
+}

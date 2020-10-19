@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Search</title>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="main">
+
+    <h1 class="title">Search Country for Information</h1>
+
+    <div class="searchArea">
+      <label for="userInput">Search country name here:</label>
+      <input type="text" id="userInput" name="userInput" height="100" >
+    </div>
+
+    <div id="display" class="animate__animated animate__fadeIn">
+      <h1 id="name"></h1>
+      <div class="content">
+        <div class="left">
+          <img src="https://cdn.britannica.com/s:900x675/40/129640-131-0EB20858/Flags-countries-world-flags-Country-blog-geography-2009.jpg" alt="" id="flag">
+        </div>
+        <div class="right">
+          <h2>Native Name : <span id="nativeName">Nom Natif : 本地名</span> </h2>
+          <h2>Capital : <span id="capital">Capitale : 首都</span> </h2>
+          <h2>Region : <span id="region">Region : 大洲</span> </h2>
+          <h2>Population : <span id="population">Population : 人口</span> </h2>
+          <h2>Area : <span id="area">Zone : 面積</span> </h2>
+          <h2>Languages : <span id="language">Langues : 語言</span> </h2>
+        </div>
+      </div>
+    </div>
+
+    <p id="footer">Country search made by 
+      <a href="https://chao.gg" style="color: white;">
+        chao.
+      </a> 
+    </p>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
