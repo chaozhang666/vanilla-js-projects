@@ -1,0 +1,123 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    background-image: url(https://wallpaperaccess.com/full/1124156.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.circle {
+    background-color: #010f1c;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.gradient-circle {
+    background: conic-gradient(#7effdb, #b693fe, #8c82fc, #ff9de2, #7effdb);
+    height: 320px;
+    width: 320px;
+    z-index: -2;
+    position: absolute;
+    /* top: -10;
+    left: -10; */
+    border-radius: 50%;
+}
+
+.pointer {
+    background-color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+
+.pointer-container {
+    /* background-color: tomato; */
+    position: absolute;
+    top: -40px;
+    /* left: 140px; */
+    width: 20px;
+    height: 200px;
+    animation: rotate 7.5s linear forwards infinite;
+    transform-origin: bottom center;
+}
+
+h1 {
+    font-size: 300%;
+    text-shadow: 2px 2px rgb(0, 255, 242);
+}
+
+#text {
+    font-size: 150%;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* grow and shrink animation in javascript */
+
+.container-grow {
+    animation: grow 3s linear forwards;
+}
+
+@keyframes grow {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.5);
+    }
+}
+
+.container-shrink {
+    animation: shrink 3s linear forwards;
+}
+
+@keyframes shrink {
+    from {
+        transform: scale(1.5);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+footer {
+    margin-bottom: 2%;
+}
+
+.link {
+    color: bisque;
+}
