@@ -1,0 +1,21 @@
+.grid-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid {
+  width: 100px;
+  height: 100px;
+  background-color: aliceblue;
+  border: 2px solid black;
+}
+
+.mole {
+  background-image: url('https://media.giphy.com/media/m9k8HrEhr5s4kLEqCU/giphy.gif');
+  background-size: cover;
+}
