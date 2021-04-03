@@ -1,0 +1,47 @@
+.container {
+  margin: auto;
+  width: 75%;
+  text-align: center;
+  height: 100vh;
+}
+
+.dice {
+  display: inline-block;
+  margin: 2%;
+  padding: 2%;
+}
+
+#title {
+  font-size: 300%;
+  color: #fff;
+}
+
+h2 {
+  font-size: 200%;
+  color: #fff;
+}
+
+.btn {
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-radius: 15%;
+  font-size: 150%;
+  background-color: #fff;
+}
+
+.btn:hover {
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+
+.footer {
+  margin-bottom: 10%;
+  font-size: 120%;
+  color: azure;
+}
+
+body {
+  background-image: url(https://media.giphy.com/media/3oGRFlpAW4sIHA02NW/giphy.gif);
+}

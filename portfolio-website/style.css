@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Indie Flower', cursive;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#6866eb, #47e4ca)
+}
+
+.container {
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+}
+
+.left {
+  width: 300px;
+  height: 100%;
+  background-color: #0194e9;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.right {
+  width: 700px;
+  height: 100%;
+  background-color: #35c1d0; 
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.profile {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.profileImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+
+.nav {
+  text-align: center;
+  margin: 40px;
+}
+
+.nav p {
+  margin: 40px;
+  font-size: 20px;
+  color: white;
+}
+
+.nav p:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#gameContent, #libraryContent, #skillContent, #lifeContent{
+  padding: 100px;
+}
+
+.content h1 {
+  color: #fff;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.content p {
+  color: #fff;
+  font-size: 20px;
+}
+
+#mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}

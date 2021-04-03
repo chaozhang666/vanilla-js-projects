@@ -27,11 +27,13 @@ button {
 button:hover {
   background-color: black;
   cursor: url(https://ani.cursors-4u.net/cursors/cur-11/cur1076.cur), auto;
-
 }
 
 .btn {
   text-align: center;
 }
 
-/* Start http://www.cursors-4u.com */ * {cursor: url(https://ani.cursors-4u.net/cursors/cur-11/cur1089.cur), auto ;} /* End http://www.cursors-4u.com */
+/* Start http://www.cursors-4u.com */
+* {
+  cursor: url(https://ani.cursors-4u.net/cursors/cur-11/cur1089.cur), auto;
+} /* End http://www.cursors-4u.com */

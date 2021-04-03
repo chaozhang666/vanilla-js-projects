@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Press+Start+2P&display=swap');
+
+.container {
+    border-style: double;
+    border-color: rgb(9, 147, 202);
+    border-width: 5px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px 5px rgb(184, 227, 233);
+    background-color: #faf1f1;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 120%;
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h3 {
+    text-shadow: 2px 2px 5px rgb(17, 209, 151);
+    display: inline-block;
+}
+
+
+li {
+    display: inline;
+    padding-left: 50px;
+}
+
+table {
+    width: 800px;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid rgb(115, 207, 230);
+    border-width: 5px;
+}
+
+.profile {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+#contact {
+    border: double;
+}
+
+#contact:hover {
+    transform: scale(1.2);
+}
+
+body {
+    background-image: url(https://media.giphy.com/media/d31wrqhUBj34YF8I/giphy.gif);
+}

@@ -1,108 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dice Game</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<style>
-  .container {
-    margin: auto;
-    width: 75%;
-    text-align: center;
-    height: 100vh;
-  }
+  <body>
+    <div class="container">
+      <h1 id="title">🤩 Click Button to Start 🤩</h1>
 
-  .dice {
-    display: inline-block;
-    margin: 2%;
-    padding: 2%;
-  }
-
-  #title {
-    font-size: 300%;
-    color: #fff;
-  }
-
-  h2 {
-    font-size: 200%;
-    color: #fff;
-  }
-
-  .btn {
-    padding: 20px;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    border-radius: 15%;
-    font-size: 150%;
-    background-color: #fff;
-  }
-
-  .btn:hover {
-    background-color: black;
-    color: #fff;
-    cursor: pointer;
-  }
-
-  .footer {
-    margin-bottom: 10%;
-    font-size: 120%;  
-    color: azure;
-  }
-
-  body {
-    background-image: url(https://media.giphy.com/media/3oGRFlpAW4sIHA02NW/giphy.gif);
-  }
-
-</style>
-
-<body>
-
-  <div class="container">
-    <h1 id="title">🤩 Click Button to Start 🤩 </h1>
-
-    <div class="dice">
+      <div class="dice">
         <h2>Player 1</h2>
-        <img id="dice1" src="./img/dice1.png">
-    </div>
+        <img id="dice1" src="./img/dice1.png" />
+      </div>
 
-    <div class="dice">
+      <div class="dice">
         <h2>Player 2</h2>
-        <img id="dice2" src="./img/dice1.png">
-    </div>
+        <img id="dice2" src="./img/dice1.png" />
+      </div>
 
-    <div id="playbutton">
+      <div id="playbutton">
         <button class="btn">Start</button>
+      </div>
+
+      <p class="footer">Dice game 🎲 made by chao.</p>
     </div>
 
-    <p class="footer">Dice game 🎲 made by chao.</p>
-  </div>
-
-<script>
-  let dice1Image = document.getElementById('dice1');
-  let dice2Image = document.getElementById('dice2');
-  let button = document.getElementById('playbutton');
-  let title = document.getElementById('title')
-
-  function play() {
-    number1 = Math.floor(Math.random() * 6 + 1);
-    number2 = Math.floor(Math.random() * 6 + 1);
-    address1 = './img/dice' + number1 + '.png';
-    address2 = './img/dice' + number2 + '.png';
-    dice1Image.setAttribute('src', address1);
-    dice2Image.setAttribute('src', address2);
-    if (number1 > number2) {
-      title.innerHTML = '🚩 Player 1 Win !';
-    } else if (number2 > number1) {
-      title.innerHTML = 'Player 2 Win ! 🚩 ';
-    } else {
-      title.innerHTML = 'Draw !';
-    }
-  }
-  button.addEventListener('click', play);
-</script>
-
-
-</body>
+    <script src="./script.js"></script>
+  </body>
 </html>
